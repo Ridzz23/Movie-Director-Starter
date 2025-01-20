@@ -5,7 +5,7 @@ const MovieSearch = () => {
   const [movies, setMovies] = useState([]); 
   const [error, setError] = useState(null); 
 
-  const API_KEY = "9e2112acd2604c8008c1727a515430b4"; // Replace with your TMDb API key
+  const API_KEY = "YOUR_API_KEY"; // Replace with your TMDb API key
   const BASE_URL = "https://api.themoviedb.org/3";
 
   const fetchMovies = async () => {
