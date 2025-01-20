@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import React from "react";
+import MovieSearch from "./searchApi.js";
+import PopularMovies from "./home.js";
 import './App.css';
-import QuoteGen from './quoteGen';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <QuoteGen />
+      <MovieSearch />
     </div>
   );
 }
