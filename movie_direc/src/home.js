@@ -5,7 +5,7 @@ const PopularMovies = () => {
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState(null);
 
-  const apiKey = "9e2112acd2604c8008c1727a515430b4"; // Replace with your TMDb API key
+  const apiKey = "YOUR_API_KEY"; // Replace with your TMDb API key
 
   const fetchPopularMovies = async () => {
     try {
