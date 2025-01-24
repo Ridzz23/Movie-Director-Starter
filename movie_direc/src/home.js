@@ -1,5 +1,6 @@
 // PopularMovies.js
 import React, { useEffect, useState } from "react";
+import "./App.css";
 
 const PopularMovies = () => {
   const [movies, setMovies] = useState([]);
